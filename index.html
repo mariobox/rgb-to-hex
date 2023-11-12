@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>RGB to HEX</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    <body>        
+        <div class='container'>
+        <h1>RGB to HEX Converter</h1>
+        <p>Input the values of R, G and B in the form fields below and click the button for the hex equivalent:</p>
+        <form action="" method="get">
+            <input name="r" type="number" required min="0" max="255" placeholder="R">
+            <input name="g" type="number" required min="0" max="255" placeholder="G">
+            <input name="b" type="number" required min="0" max="255" placeholder="B">
+            <input type="submit" value="Convert To HEX">
+            <input name="reset" type="submit" value="Reset">
+        </form>
+        <br />
+        <h2></h2>
+        <p id="error" class="text-danger"></p>
+        </div>
+    <script src="rgbhex.js"></script>
+
+    </body>
+</html>
