@@ -15,3 +15,5 @@ This js application captures input from the user in RGB format and translates it
 5. The hex value needs to be displayed between `h2` tags and the page background should switch to the converted color after clicking the submit button.
 
 6. You should also implement a reset button or find a way to enable repeated queries.
+
+Last updated: May 21, 2026
